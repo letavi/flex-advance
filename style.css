@@ -1,0 +1,52 @@
+.parent {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.first {
+  width: 53%;
+  margin-right: 2%;
+}
+
+.first-one {
+  display: flex;
+  margin-top: 40px;
+}
+
+.one, .two, .three {
+  width: 33.33%;
+}
+
+.first img , .one img, .two img, .three img, .last-one img {
+  width: 100%;
+}
+
+.one img, .two img, .three img {
+  height: 200px;
+}
+
+.one, .two {
+  margin-right: 2%;
+}
+
+.last {
+  width: 45%;
+  display: flex;
+}
+
+.last-one {
+  width: 15%;
+  margin-right: 2%;
+}
+
+.last-two {
+  width: 28%;
+}
+
+.last-one img {
+  margin-bottom: 10px;
+}
+
+
+
